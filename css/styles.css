@@ -14,8 +14,13 @@
 
 
 /* Portfolio Item CSS */
+body{
+    background:#ccccff;
+}
 
-
+name(
+    font: 15px arial, sans-serif;
+)
 
 /* Footer CSS */
 
