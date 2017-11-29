@@ -1,31 +1,32 @@
-/* Nav Bar CSS */
+body {
+    background-color:  #ffb3ec
+;
 
-
-/* Header CSS */
-
-
-
-/* Section CSS */
-
-
-
-/* About Section CSS */
-
-
-
-/* Portfolio Item CSS */
-body{
-    background:#ccccff;
 }
-
-name(
-    font: 15px arial, sans-serif;
-)
-
-/* Footer CSS */
-
-
-
-/* Button CSS */
-
+.thumbnail { 
+    background-color: #ffb3ec;
+    border:none;
+}
+.name {
+    font-family:"Times New Roman";
+    font-weight: bold;
+    font-size: 400%;
+    color: #FF00FF;
+}
+.navbar {
+    background-color: white;
+    font-family: "Times New Roman";
+    font-size:150%;
+}
+#home:hover {
+    color: pink;
+}
+.active:focus {
+    background-color:white;
+}
+#me {
+    Color:white;
+    font-family: "Times New Roman";
+    font-size:150%;
+}
 

@@ -1,14 +1,3 @@
-<!-- 
-    Class 1:
-        1.1 Wireframe your project
-        1.2 Fork and clone the repo and set up your project workspace
-    Class 2:  
-        2.1 Link your files in the head of the docment Add a Nav Bar to your site - It should have three links (Portfolio, About, and Contact) 
-        2.2 Add a div for each section. Within section add a contatiner div with the appropriate number of rows and columns
-    Class 3:  
-        3.1 Add thumbnails and other custom component (button, modal, font) using bootstrap Documentation 
-        3.2 Add CSS and add your site to gh-pages 
--->
 
 <!DOCTYPE html>
 <head>   
@@ -39,29 +28,33 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-          <li class="page-scroll"><a href="#about">About</a></li>
+          <li class="page-scroll"><a href="#aboutme">About</a></li>
           <li class="page-scroll"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
 </nav>
-<div class="container" tabindex="-1" style="padding-top: 100px; padding-bottom: 50px;">
+<div class="container" tabindex="-1" style="padding-top: 100px; padding-bottom: 50px; background-color: #FF00FF">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <img class="img-responsive center-block" src="images/propic1.jpg" alt="">
+        <div class="col-md-12 text-center">
+          
+            <a href="#" class="thumbnail">
+          <img class="img-responsive center-block img-circle" src="images/propic23.png" alt="">
+          </a>
           <div class="intro-text">
             <h1 class="name">Eyerin Rashid</h1>
             <hr class="star-light">
-            <span class="skills">Student - Developer - Awesome Person</span>
+            <span class="skills">Student - Developer - Dedicated</span>
           </div>
-        </div>
-      </div>
+        
+    </div>
+
 </div>
   </header>
 
 
             
-    <section id="portfolio" style="padding-top: 50px; padding-bottom: 50px; background-color: #f7f8f9">
+    <section id="portfolio" style="padding-top: 50px; padding-bottom: 50px; background-color: #FF00FF">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -82,29 +75,55 @@
       </div>
     </div>
   </section>
-
-<section id="about" style="padding-top: 50px; padding-bottom: 50px;">
+  
+<section id="aboutme" style="padding-top: 50px; padding-bottom: 50px; background-color: #FF00FF">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2>About</h2>
-          <hr class="star-light">
+      <h1 class="text-center">About Me</h1>
+
+<div class="row">
+        <div class="col-md-5">
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <p>Hello! My name is Eyerin Rashid. I go to Urban Assembly School of Design and Construction. 
-          For two years, I have been taking coding classes for the ScriptEd School class and Summer Academy.
-          </p>
+        <div class="col-md-12">
+            <p id="me">Hello! My name is Eyerin Rashid. I am 16 years old. I currently go to the Urban Assembly 
+  School of Design and Construction. For two years, I took coding classes. My first class was a inschool
+  class with volunteers who taught us the basic knowledge of HTML,CSS, Bootstrap, Javascript, and JQuery. I plan to pursue 
+  a career in Civil Engineering in the future. Other than web development, I enjoy solving math problems. Some of my hobbies
+  are watching a lot movies and shows and experimenting with makeup. I also enjoy cooking food, taking photos of the 
+  Manhattan skyline and spending quality time with my friends. Thank you for visiting my portfolio. </p>
+            </div>
+            <img src="images/group.png">
+            <img id="lala" src="images/ski.png">
+          <div class="col-md-7">
+</div>
+</section>
+
+<section id="contact" style="padding-top: 50px; padding-bottom: 50px; background-color: #FF00FF">
+    <div class="container">
+<div class="row">
+        <div class="col-md-4">
+            
         </div>
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          <a href="" class="btn btn-lg btn-outline"> Learn More!</a>
+        <div class="col-md-4" style="text-align:center;">
+            <form action="https://formspree.io/eyerinrashid@gmail.com" method="POST">
+                <h1 style="color:#993300">Contact Me</h1>
+                <br>
+                <input name="Full Name" placeholder=" Full Name" class="form-control">
+                <br>
+                <input name="Email" placeholder="Email" class="form-control">
+                <br>
+                <input name="Number" placeholder="Number" class="form-control message">
+                <br>
+                <textarea name="Message" placeholder="Message" class="form-control"></textarea>
+                <br>
+                <input class="btn btn-warning" type="submit" value="Send Message!">
+            </form>
         </div>
-      </div>
+        <div class="col-md-4">
+            
+        </div>
     </div>
-  </section>
-
-
+</div>
+</section>
 
 
     
